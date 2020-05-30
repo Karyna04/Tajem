@@ -1,0 +1,35 @@
+.row-wrapper {
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.row > .column {
+  padding: 10px;
+}
+
+.row-large {
+  margin: -40px;
+}
+.row-large > .column {
+  padding: 40px;
+}
+.row-expertise > .column {
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.row-middle {
+  margin: -24px -40px;
+}
+.row-middle > .column {
+  padding: 24px 40px;
+}
+.row-footer {
+  margin: 0 -33px;
+}
+.row-footer > .column {
+  padding: 0 33px;
+}

@@ -1,0 +1,102 @@
+.button {
+  background: none;
+  display: inline-block;
+  margin: 0;
+  border-radius: 0;
+  color: #00e0d0;
+  border: 1px solid #00e0d0;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  padding: 15px;
+  outline: none;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.button:hover {
+  background-color: #00e0d0;
+  color: #ffffff;
+}
+
+.button:focus {
+  outline: none;
+}
+.button-full {
+  width: 100%;
+}
+.button-primary {
+  color: #ffffff;
+  background-color: #151c22;
+}
+.button-primary:hover {
+  color: #151c22;
+  background-color: #ffffff;
+  border-color: #151c22;
+}
+.button-primary-inverse {
+  color: #151c22;
+  background-color: #ffffff;
+  border-color: #151c22;
+}
+.button-primary-inverse:hover {
+  color: #ffffff;
+  background-color: #151c22;
+}
+
+.button-success {
+  color: #ffffff;
+  background-color: green;
+}
+.button-success:hover {
+  color: green;
+  background-color: #ffffff;
+  border-color: green;
+}
+
+.button-danger {
+  color: #ffffff;
+  background-color: red;
+}
+.button-danger:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+
+.button-large {
+  padding: 16px 32px;
+}
+
+.button-small {
+  padding: 4px 8px;
+}
+.button-team {
+  margin: 26px;
+}
+.button-works {
+  margin: 70px 0 0 400px;
+}
+.button-news {
+  margin: 0 auto;
+}
+.button-footer {
+  margin: 0 0 0 10px;
+  padding: 10px 23px;
+  background-color: #ffffff;
+  opacity: 0.5;
+  border-radius: 0;
+  font-size: 18px;
+  border: 1px solid #000000;
+}
+.button-footer:hover {
+  background-color: #00e0d0;
+  color: #ffffff;
+  opacity: 1;
+}
+.button-footer-telegram {
+  color: grey;
+}
